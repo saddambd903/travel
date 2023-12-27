@@ -1,0 +1,644 @@
+
+.header-one nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.row.my-travel-search {
+    margin-top: 210px;
+}
+@media screen and (max-width: 500px){
+.row.my-travel-search {
+    margin-top: 25px;
+}
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.dropdown-hover:hover .dropdown-menu{
+    display:block;
+}
+
+.theme-bg{background-color: #1a61ff;}
+.theme-border{border-color: #1a61ff; }
+.text-bg{color: #1a61ff;}
+.text-bg-video-one{color: #ED915C;}
+.text-bg-video-two{color: #7BC5E6;}
+.hover-glow .nav-link{transition: 0.2s ease-out;}
+.hover-glow .nav-link:hover{background-color: #1a61ff;}
+.hover-glow .dropdown-item:hover{
+    background-color: RGBA(255, 193, 7, var(--bs-bg-opacity, 1));
+    font-weight: normal;
+    color: black !important;
+}
+
+.grow-1{transition: 0.2s ease-out;}
+.grow-1:hover{transform: scale(1.01);}
+.grow-2{transition: 0.2s ease-out;}
+.grow-2:hover{transform: scale(1.02);}
+.grow-3{transition: 0.2s ease-out;}
+.grow-3:hover{transform: scale(1.03);}
+.w-90 {width: 90% !important;}
+
+.input-focus:focus{
+    outline: none;
+}
+.single-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.package-details .slider{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.package-details .slider .slide-track{
+    display: inline-block;
+    
+    animation: 30s slide infinite linear;
+}
+.package-details img{
+
+    height: 300px;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.text-orange{
+    color: #ED915C !important;
+}
+
+
+.custom-mt300{
+    margin-top: 300px !important; 
+}
+
+.dark-blue{
+    color: #1444A7 !important;
+    font-size: large;
+}
+
+.footer-gradiant{
+    background: linear-gradient(180deg, #3C7BFF 0%, #09358E 100%) !important;
+}
+
+
+
+ /*==========my css Home Search Bar===========*/
+ .all-inputi-form {
+    display: flex;
+}
+
+.header-one video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+@media only screen and (max-width: 700px){
+.all-inputi-form {
+    display: block;
+ }
+ li.nav-item {
+    font-size: 18px;
+}
+.header-one video{
+    height: 700px;
+}
+}
+
+.all-inputi-form .inputi-form {
+    margin: 0px 10px 0px 11px;
+}
+@media only screen and (max-width: 1399px){
+    .all-inputi-form .inputi-form {
+        overflow: hidden;
+    }
+    }
+ .my-travel-search .col-md-6 {
+    text-align: center;
+}
+
+ ul#pills-tab {
+    background: #fff;
+    padding: 0px 50px;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 2px 6px 20px 1px #c7c7c7;
+    display: inline-flex;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    padding: 15px 0px;
+    margin: 0px 25px;
+    color: #505962;
+    font-family: ui-rounded;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #1444a7;
+    background-color: transparent;
+    border-bottom: 2px solid #1444a7;
+    font-family: 'Poppins', sans-serif;
+}
+div#pills-tabContent {
+    background-color: #ffffff;
+    padding: 50px 10px 1px;
+    margin-top: -40px;
+    border-radius: 20px;
+}
+
+
+.select2-container .select2-selection--single{
+    height:65px !important;
+}
+.select2-container--default .select2-selection--single{
+    border: 1px solid #706a6a !important;
+    border-radius: 10px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #1444a7!important;
+    font-weight: 600;
+    font-size: larger;
+    line-height: 60px!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 20px!important;
+    right: 1px;
+    width: 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered:hover {
+    background: #deebff;
+    border-radius: 10px !important;
+    height:63px !important;
+}
+
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection.active{
+    background-color: #deebff;
+}
+
+.d-none{
+    display: none;
+}
+span.select2-selection.select2-selection--single {
+    margin-bottom: 5px;
+}
+.wrapper label {
+    font-size: large;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #1444a7;
+    border: 1px solid #ECEFF1;
+    padding: 0px 25px 0px 15px;
+    border-radius: 0.5rem;
+    background: white;
+    border: 1px solid #706a6a;
+}
+.wrapper input {
+    font-family: 'Roboto', 'Poppins', sans-serif;
+    display: block;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    line-height: 1.5rem;
+    padding: 0;
+    color: #000000;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+input:focus {outline: none;}
+
+
+.sarch-btn {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+.sarch-btn button.btn.btn-warning {
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+a.btn.btn-outline-primary.text-white.border-3.fw-bolder.ms-3.px-4.me-5{
+    background: blue;
+    color: #fff;
+    border: none;
+}
+a.btn.btn-outline-primary.text-white.border-3.fw-bolder.ms-3.px-4.me-5:hover{
+    background: #ffc107;
+    color: #000 !important;
+}
+.flatpickr input.form-control.input {
+    padding: 20px 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border-color: #706a6a;
+    color: #1444a7;
+}
+.flatpickr input::-webkit-input-placeholder{
+    color: #1444a7;
+}
+.flatpickr input:-moz-placeholder {
+    color: #1444a7;
+}
+ /*==========my css Home vieo-slider ===========*/
+ .home-video-slider-top h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #1444a7;
+    margin: 0px 0px 50px;
+    text-transform: capitalize;
+}
+
+ .post-slide{
+    background: #fff;
+    padding-bottom: 20px;
+    margin: 0 15px;
+}
+.post-slide .post-img{
+    position:relative;
+}
+.post-slide .over-layer{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity:0;
+    cursor: pointer;
+    transition: all 0.30s ease 0s;
+}
+.post-slide:hover .over-layer{
+    opacity:1;
+}
+.post-slide .over-layer:after{
+    content: "+";
+    font-size: 52px;
+    color: #fff;
+    position: absolute;
+    top: 31%;
+    left:42%;
+}
+.post-slide .post-img img{
+    width: 100%;
+    height: auto;
+}
+.post-slide .post-title{
+   text-align: center;
+}
+
+.post-slide .post-title a{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.post-slide .post-title a:hover{
+    text-decoration: none;
+    color:#e67e22;
+}
+.post-slide .post-date{
+    text-transform:capitalize;
+}
+.post-slide .post-date:before{
+    content: "\f073";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    margin-right: 7px;
+    color:#e67e22;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #e67e22;
+}
+
+video.img-fluid.pb-2.h-100 {
+    border-radius: 25px;
+}
+
+ /*==========my css Home populer toure ===========*/
+ .home-pakeg-header h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #13419f;
+    margin: 150px 0px 50px;
+    text-transform: capitalize;
+}
+ .single-home-pakeg {
+    box-shadow: 0px 0px 20px 0px #abaaaa;
+    border-radius: 20px;
+    padding-bottom: 25px;
+}
+
+.single-home-pakeg img.img-fluid {
+    padding: 10px;
+    height: 400px;
+}
+.single-home-pakeg h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #1444a7;
+    font-size: 22px;
+}
+.single-home-pakeg ul {
+    text-align: center;
+    padding-left: 0px;
+}
+.single-home-pakeg ul li {
+    display: inline;
+    padding: 0px 7px;
+}
+
+.single-home-pakeg ul li i{
+    font-size: 20px;
+    color: #1444a7;
+}
+.single-home-pakeg ul li span {
+    margin-left: 2px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #1444a7;
+}
+.single-home-pakeg button.btn.btn-primary {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 20px;
+}
+.home-pakeg-all {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.home-pakeg-all button.btn.btn-outline-primary {
+    padding: 8px 50px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+ /*==========my css Home client tyestimonial===========*/
+ .demo h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #1444a7;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+}
+
+.testimonial{
+    background: #1444a7;
+    padding: 20px;
+    margin: 0 15px 10px 15px;
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.testimonial .description{
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.testimonial .pic{
+    display: inline-block;
+    float: left;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin-left: -35px;
+
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .content{
+    margin: 10px 0;
+    text-align: right;
+}
+.testimonial .name{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonial .post{
+    font-size: 11px;
+    color: #fff;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.owl-theme .owl-controls{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #0d8a63;
+}
+@media only screen and (max-width: 479px){
+    .testimonial .testimonial-content:after{
+        content: "";
+    }
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    width: 45px;
+    background: #1342a2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==========my css Home Blog===========*/
+.home-single-blog {
+    box-shadow: 0px 0px 20px 0px;
+}
+.home-blog-header h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #1444a7;
+    margin: 100px 0px 50px;
+    letter-spacing: 1px;
+}
+.home-blog .col-md-4 {
+    padding: 20px;
+}
+.home-single-blog h1 {
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    margin: 13px 5px;
+    color: #1444a7;
+}
+.home-single-blog h5 {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 10px;
+}
+.home-single-blog a {
+    text-decoration: none;
+}
+.home-single-blog p {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #1444a7;
+    padding: 0px 10px;
+}
+.home-blog-btn {
+    text-align: center;
+    margin: 8px 0px 50px;
+}
+
+.home-blog-btn button.btn.btn-primary.btn-lg {
+    padding: 10px 55px;
+    font-size: 30px;
+    font-weight: 700;
+    background: #1444a7;
+    font-family: 'Poppins', sans-serif;
+}
+/*==========my css Footer===========*/
+
+.card.bg-warning.p-2.my-5 {
+    border-radius: 20px;
+}
+.col-lg-4.p-2.footer-booder {
+    border-right: 1px solid;
+}
+.col-lg-4.p-2.footer-top {
+    margin: 15px 0px !important;
+}
+.col-1.mt-2.dark-blue.footer-font {
+    padding-top: 6px;
+}
+.row.contact-details {
+    margin-left: 5px;
+    line-height: 25px;
+}
+.contact-details-last{
+    margin-left: -4px;
+    line-height: 25px;
+}
+.row.hidden.text-start.middle-footer {
+    margin-bottom: 100px;
+}
+p.fw-light {
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.footer-img {
+    border-top: 2px solid #fff;
+}
+
+/*==========
+All BLOG PAGE
+===========*/
+.all-blog-hero{
+    background-image: url('../img/header1.jpg');
+    border-radius: 25px;
+}
+.all-blog-hero h1 {
+    padding: 100px 50px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.all-blog-text .home-single-blog {
+    box-shadow: 0px 0px 20px 0px;
+    margin: 100px 30px;
+}
+.all-blog-text-details {
+    padding: 0px 35px 10px;
+}
+/*==========
+SINGLE BLOG PAGE
+===========*/
+.single-blog-details {
+    text-align: justify;
+    margin-top: 20px;
+}
+.single-blog-details h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.single-blog-details p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.table-comtent {
+    border: 1px solid #0b47c5;
+}
+.table-comtent p {
+    text-align: center;
+    background: #0b47c5;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+.table-comtent ul {
+    text-align: center;
+    padding: 0px;
+}
+.table-comtent ul li {
+    display: block;
+    font-size: 16px;
+    margin: 5px 0px;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: #3a3a3a;
+    background: #e3e3e3;
+    transition: all 0.3s ease-in-out;
+}
+.table-comtent ul li:hover {
+    background: #ffc107;
+}
+.table-comtent ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.table-comtent ul li:hover a{
+    color: #ffffff;
+}
